@@ -1,5 +1,6 @@
 import Hero from '@/app/components/hero/page'
 import Navbar from '@/app/components/navbar/page'
+import Technologies from '@/app/components/technologies/page'
 import React from 'react'
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
       <div className='container mx-auto px-8'>
         <Navbar/>
         <Hero/>
+        <Technologies />
       </div>
         </div>
     )
