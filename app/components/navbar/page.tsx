@@ -6,7 +6,7 @@ import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa6'
 
 const Navbar = () => {
   return (
-    <header className="bg-gradient-to-r from-gray-800 via-gray-900 to-black py-4 px-8 flex justify-between items-center">
+    <header className="flex justify-between items-center mt-10">
       <div className="flex items-center space-x-3 text-white text-xl">
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -17,7 +17,7 @@ const Navbar = () => {
             className="rounded-full"
           />
           <span className="font-bold text-2xl bg-gradient-to-r from-red-500 to-indigo-500 bg-clip-text text-transparent">
-            K1enNg
+            Kien Nguyen
           </span>
         </Link>
       </div>
