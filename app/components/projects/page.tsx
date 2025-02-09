@@ -6,7 +6,7 @@ import { PROJECT_DATA } from "@/app/constants";
 
 const Project = () => {
   return (
-    <section className="py-16 px-8">
+    <section className="border-t border-neutral-800 pb-24 py-16">
       <h1 className="text-4xl font-bold text-center mb-12">Projects</h1>
       <div className="grid gap-8 md:grid-cols-2">
         {PROJECT_DATA.map((project, index) => (

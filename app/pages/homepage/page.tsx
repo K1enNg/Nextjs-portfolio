@@ -1,3 +1,4 @@
+import Contact from '@/app/components/contact/page'
 import Experience from '@/app/components/experience/page'
 import Hero from '@/app/components/hero/page'
 import Navbar from '@/app/components/navbar/page'
@@ -19,6 +20,7 @@ const Homepage = () => {
         <Technologies />
         <Experience />
         <Project />
+        <Contact />
       </div>
         </div>
     )
