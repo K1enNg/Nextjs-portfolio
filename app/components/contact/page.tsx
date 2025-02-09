@@ -22,7 +22,7 @@ const Contact = () => {
         setStatus("Email sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       }
-    } catch (error) {
+    } catch {
       setStatus("Failed to send email. Please try again.");
     }
   };
