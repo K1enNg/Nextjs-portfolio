@@ -20,7 +20,7 @@ export const EXPERIENCE = [
         title: "Software Developer",
         company: "LaSalle College",
         duration: "September 2024 - November 2024",
-        description: "Built a web application to manage book using MERN Stack.",
+        description: "Built a web application to manage books using MERN Stack.",
       },
 ]
 

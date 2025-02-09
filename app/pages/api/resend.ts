@@ -1,10 +1,11 @@
 "use server"
 
 import { Resend } from "resend";
+import type { NextApiRequest, NextApiResponse } from "next";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY as string);
 
-export default async function handler(req: any, res: any) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "POST") {
     try {
       const { name, email, message } = req.body;
@@ -20,7 +21,7 @@ export default async function handler(req: any, res: any) {
 
       res.status(200).json({ success: true, message: "Email sent successfully!" });
     } catch (error) {
-      res.status(500).json({ success: false, error });
+      res.status(500).json({ success: false, error: (error as Error).message});
     }
   } else {
     res.status(405).json({ message: "Method Not Allowed" });
