@@ -20,6 +20,29 @@ export const EXPERIENCE = [
         title: "Software Developer",
         company: "LaSalle College",
         duration: "September 2024 - November 2024",
-        description: "Used .NET Core to developed a web application to maintain rental service",
+        description: "Built a web application to manage book using MERN Stack.",
       },
 ]
+
+export const PROJECT_DATA = [
+  {
+    title: "Elite Club Website",
+    description: "A responsive UI platform for managing club events and activities.",
+    imageUrl: "/assets/elite_demo.png",
+  },
+  {
+    title: "Make Transparency Live",
+    description: "A web application that helps Montrealers finding apartments that meet requirements",
+    imageUrl: "/assets/mtl_demo.png",
+  },
+  {
+    title: "Property Rental System",
+    description: "ASP.NET-based platform for rental property management.",
+    imageUrl: "/assets/prms_demo.png",
+  },
+  {
+    title: "Homeal App",
+    description: "Android application that suggests user nearest grocery store with competitive prices",
+    imageUrl: "/assets/homeal_demo.png",
+  },
+];

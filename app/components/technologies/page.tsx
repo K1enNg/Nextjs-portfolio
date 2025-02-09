@@ -19,7 +19,7 @@ const techIcons = [
 const Technologies = () => {
   return (
     <div className="border-t border-neutral-800 pb-24">
-      <h1 className="my-20 text-center text-4xl">Technologies</h1>
+      <h1 className="my-16 text-center text-4xl font-semibold">Technologies</h1>
       <div className="flex flex-wrap justify-center gap-8">
         {techIcons.map((tech, index) => (
           <motion.div
