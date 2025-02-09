@@ -18,14 +18,14 @@ const techIcons = [
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="border-t border-neutral-800 pb-24">
       <h1 className="my-20 text-center text-4xl">Technologies</h1>
       <div className="flex flex-wrap justify-center gap-8">
         {techIcons.map((tech, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.2, rotate: 10 }}
-            whileTap={{ scale: 0.9 }}
+            whileTap={{ scale: 0.1 }}
             className={`p-4 rounded-xl shadow-lg hover:${tech.color} transition duration-300`}
           >
             <div className={`flex items-center justify-center ${tech.color}`}>

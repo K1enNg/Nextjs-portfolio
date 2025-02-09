@@ -1,3 +1,4 @@
+import Experience from '@/app/components/experience/page'
 import Hero from '@/app/components/hero/page'
 import Navbar from '@/app/components/navbar/page'
 import Technologies from '@/app/components/technologies/page'
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Navbar/>
         <Hero/>
         <Technologies />
+        <Experience />
       </div>
         </div>
     )
