@@ -11,20 +11,30 @@ export const EXPERIENCE = [
         description: "Built a digital flatform using React and TypeScript. Collaborated closely with designers to improve UI performance.",
       },
       {
-        title: "Freelance Web Developer",
-        company: "Self-Employed",
-        duration: "November 2024 - January 2025",
-        description: "Developed a data-analysis-oriented web application that helps users find their ideal apartment based on customized criteria, including budget, location, amenities, and preferences.",
+        title: "Project Manager Team Lead",
+        company: "College LaSalle",
+        duration: "February 2025 - April 2025",
+        description: "Led a small team in planning, developing, and deploying a React-based cryptocurrency tracking web application, ensuring timely progress and feature completion.",
       },
       {
-        title: "Software Developer",
-        company: "LaSalle College",
+        title: "Application Developer",
+        company: "College LaSalle",
         duration: "September 2024 - November 2024",
-        description: "Built a web application to manage books using MERN Stack.",
+        description: "Built a full-stack property rental management application using .NET MVC Core",
       },
 ]
 
 export const PROJECT_DATA = [
+  {
+    title: "The Kitchen App",
+    description: "A multi-platform application that helps users searching favorite food recipes by integrating AI",
+    imageUrl: "/assets/thekitchenlab_demo.png",
+  },
+  {
+    title: "Cryptonite",
+    description: "A cryptocurrency tracking web application, using MERN Stack",
+    imageUrl: "/assets/cryptonite_demo.png",
+  },
   {
     title: "Elite Club Website",
     description: "A responsive UI platform for managing club events and activities.",
@@ -44,5 +54,5 @@ export const PROJECT_DATA = [
     title: "Homeal App",
     description: "Android application that suggests user nearest grocery store with competitive prices",
     imageUrl: "/assets/homeal_demo.png",
-  },
+  }
 ];

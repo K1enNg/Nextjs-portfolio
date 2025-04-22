@@ -6,10 +6,12 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
+import { SiNestjs } from "react-icons/si";
 
 const techIcons = [
   { icon: <RiReactjsLine className="text-6xl" />, color: "text-cyan-400", name: "React" },
   { icon: <TbBrandNextjs className="text-6xl" />, color: "text-white-500", name: "Next.js" },
+  { icon: <SiNestjs className="text-6xl" />, color: "text-red-500", name: "Nest.js" },
   { icon: <SiTypescript className="text-6xl" />, color: "text-blue-600", name: "TypeScript" },
   { icon: <FaNodeJs className="text-6xl" />, color: "text-green-700", name: "Node.js" },
   { icon: <SiMongodb className="text-6xl" />, color: "text-green-500", name: "MongoDB" },

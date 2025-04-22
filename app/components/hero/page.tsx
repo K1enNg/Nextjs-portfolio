@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import PFP from '@/public/assets/IMG_4621.png';
+import PFP from '@/public/assets/profile.png';
 import {HERO_CONTENT} from '@/app/constants/index'
 const Hero = () => {
     return (
